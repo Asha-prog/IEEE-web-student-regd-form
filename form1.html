@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registrstion Form</title>
+    <style>
+        h2{
+            font-family:  sans-serif;
+            font-size:24px ;
+            font-style: normal;
+            font-family: bold;
+            color:rgb(16, 12, 244);
+            text-align: center;
+            text-decoration: underline;
+        }
+        table{
+            font-family: verdana;
+            color:white;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: bold;
+            background-color: aqua;
+            border-collapse: collapse;
+            border-style: dashed;
+        }
+        table.inner
+        {
+            border: 10px;
+        }
+        input[type=text],input[type=email],input[type=number]
+        {
+            width:50%;
+            padding:6px 12px;
+            margin:5px 0;
+            box-sizing:border-box;
+        }
+        input[type=submit],input[type=reset]{
+            width:15%;
+            padding:8px 12px;
+            margin:5px 0;
+            box-sizing: border-box;
+        }
+
+        
+    </style>
+    <link rel="stylesheet"href="form.css">
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<table-align="center"cellpadding="10">
+    <tr>
+        <td>First Name:</td>
+        <br>
+        <td><input type="text"name="firstname"maxlength="50"placeholder="first name"/></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Middle Name:</td>
+        <br>
+        <td><input type="text"name="middlename"maxlength="50"placeholder="middlename"/></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Last Name:</td>
+        <br>
+        <td><input type="text"name="lastname"maxlength="50"placeholder="lastname"/></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Course:</td>
+        <br>
+        <td><input type="text"name="Course"maxlength="50"placeholder="course"/></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Gender:</td>
+        <br>
+        <td>
+            <input type="radio"name="Gender"value="male"/>
+            Male
+            <input type="radio"name="Gender"value="female"/>
+            Female
+            <input type="radio"name="Gender"value="other"/>
+            Other
+        </td>
+    </tr>
+    <br>
+    <tr>
+        <td>Mobile number:</td>
+        <br>
+        <td><input type="text"name="Mobile number"maxlength="10"placeholder="mobile number"/></td>
+    </tr>
+    <br>
+    <tr>
+        <td>email ID:</td>
+        <br>
+        <td><input type="email"name="email ID"maxlength="10"placeholder="email ID"/></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Address:<br/><br/></td>
+        <td><textarea name="Address"rows="10"cols="50"></textarea></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Password:</td>
+        <br>
+        <td><input type="number"name="password"maxlength="10"placeholder="password"/></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Re-type password:</td>
+        <br>
+        <td><input type="number"name="re-type password"maxlength="10"placeholder="Re-type password"/></td>
+    </tr>
+    <br>
+    <tr>
+        <td colspan="2"align="center">
+            <input type="submit"value="Submit">
+            <input type="reset"value="Reset">
+        </td>
+    </tr>
+</table-align>
+</body>
+</html>
